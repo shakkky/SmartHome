@@ -1,0 +1,4 @@
+#Thu Dec 26 22:13:19 AEDT 2019
+base.0=/Users/shak/AndroidStudioProjects/SmartHome/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

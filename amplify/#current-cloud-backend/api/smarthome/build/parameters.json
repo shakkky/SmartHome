@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "smarthome",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "S3DeploymentBucket": "amplify-smarthome-smarthome-214958-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/4ca6a9e650525149ca23569144c35b3606432a84"
+}

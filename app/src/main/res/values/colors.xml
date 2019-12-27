@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B7AB1</color>
+    <color name="colorPrimaryDark">#000205</color>
+    <color name="colorAccent">#3374AF</color>
+    <color name="grey">#ECECEC</color>
+    <color name="black">#FF030303</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgrey">#1B1B1B</color>
+    <color name="yellow">#0058A9</color>
+    <color name="buttonGrey">#8D8D8D</color>
+    <color name="buttonDarkGrey">#A7A5A5</color>
+    <color name="buttonActivatedStart">#24629B</color>
+    <color name="buttonActivatedEnd">#6697C4</color>
+    <color name="buttonLightOff">#DADADA</color>
+</resources>

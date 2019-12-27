@@ -1,0 +1,63 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-smarthome-smarthome-214958-authRole",
+			"UnauthRoleArn": "arn:aws:iam::452098011534:role/amplify-smarthome-smarthome-214958-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::452098011534:role/amplify-smarthome-smarthome-214958-authRole",
+			"Region": "ap-southeast-2",
+			"DeploymentBucketName": "amplify-smarthome-smarthome-214958-deployment",
+			"UnauthRoleName": "amplify-smarthome-smarthome-214958-unauthRole",
+			"StackName": "amplify-smarthome-smarthome-214958",
+			"StackId": "arn:aws:cloudformation:ap-southeast-2:452098011534:stack/amplify-smarthome-smarthome-214958/d7492be0-03a7-11ea-91f7-06ee11b6f4dc"
+		}
+	},
+	"auth": {
+		"smarthome0e9e6073": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-smarthome-smarthome-214958-deployment/amplify-cfn-templates/auth/smarthome0e9e6073-cloudformation-template.yml",
+				"logicalId": "authsmarthome0e9e6073"
+			},
+			"lastPushTimeStamp": "2019-11-10T11:20:35.742Z",
+			"output": {
+				"AppClientSecret": "e0vgtcbs859s697isp1hujhvbn9lic1ptgefoejqnqc6n16ro4i",
+				"UserPoolId": "ap-southeast-2_ksnye5Yxw",
+				"AppClientIDWeb": "5g6le0avr9kdvnclmdfl550qf5",
+				"AppClientID": "6hmqpkfmsr48p72c5bt5bgu02i",
+				"IdentityPoolId": "ap-southeast-2:ba52b212-735e-4636-9037-f6e66c69ed10",
+				"IdentityPoolName": "smarthome0e9e6073_identitypool_0e9e6073__smarthome",
+				"UserPoolName": "smarthome0e9e6073_userpool_0e9e6073"
+			},
+			"lastPushDirHash": "Pa+YBgsjOTKQN1EnkxoZg5KXSaE="
+		}
+	},
+	"api": {
+		"smarthome": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "",
+							"apiKeyExpirationDays": "365"
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "7efi2n27djg5thurbqmexoynky",
+				"GraphQLAPIEndpointOutput": "https://lptu6sjroredtpeehwofrbwl7i.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-mvho7ysgzrbrblp3k6mjtdr34y"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-smarthome-smarthome-214958-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apismarthome"
+			},
+			"lastPushTimeStamp": "2019-11-10T11:20:37.741Z",
+			"lastPushDirHash": "7tbIM7X2IL/C+bRH5iUUt51AQeI="
+		}
+	}
+}

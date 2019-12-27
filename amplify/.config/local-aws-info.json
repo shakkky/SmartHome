@@ -1,0 +1,7 @@
+{
+    "smarthome": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "ShakAWS"
+    }
+}
